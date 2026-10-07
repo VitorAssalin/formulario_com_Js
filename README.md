@@ -1,0 +1,1 @@
+# Esse projeto foi feito durante algumas aulas da faculdade cujo o foco era entender mais sobre o uso do BootStrap e tambem comçar a implementar O JavaScript e algumas funçoes dele, Ate o momento apenas foi implementado o Js no Id RA.

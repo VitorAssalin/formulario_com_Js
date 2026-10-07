@@ -1,0 +1,120 @@
+:root {
+  --cor-botao: #470ab8;
+  --cor-hover: #2c0570;
+  --fundo-pagina: #ffffff;
+  --fundo-cartao: #eeecec41;
+  --borda-cartao: #cdcccc;
+  --texto-titulo: #333333;
+  --texto-suave: #4e4d4d;
+  --cor-primaria: blue;
+  --cor-link: #729fc4;
+  --degrade-inicio: #0b224d;
+  --degrade-fim: #477fe0;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: var(--fundo-pagina);
+}
+
+h1 {
+  color: var(--texto-titulo);
+  text-align: center;
+}
+
+p.formato1 {
+  font-size: small;
+  color: var(--cor-primaria);
+}
+
+/* Agrupamento do fundo em gradiente */
+.custom-navbar,
+.rodape {
+  background: linear-gradient(
+    135deg,
+    var(--degrade-inicio),
+    var(--degrade-fim)
+  );
+}
+
+.custom-navbar .navbar-brand,
+.custom-navbar .nav-link {
+  color: var(--fundo-pagina);
+}
+
+.custom-navbar .nav-link {
+  padding: 8px 16px;
+  border-radius: 20px;
+}
+
+.custom-navbar .nav-link:hover,
+.custom-navbar .nav-link.active {
+  color: var(--fundo-pagina);
+  background: var(--fundo-cartao);
+  text-decoration: none;
+}
+
+/* Formulário e Fieldsets */
+#formAluno {
+  color: var(--cor-primaria);
+  background-color: var(--fundo-cartao);
+  padding: 25px;
+  max-width: 600px;
+  margin: 30px auto;
+  border-radius: 10px;
+}
+
+fieldset {
+  border: 1px solid var(--borda-cartao);
+  padding: 15px;
+  border-radius: 6px;
+  margin-bottom: 20px;
+}
+
+legend {
+  padding: 0 10px;
+  font-size: 1.1rem;
+  font-weight: bold;
+  color: var(--texto-titulo);
+}
+
+#legendaOpcoes {
+  color: var(--cor-botao);
+  border-bottom: 2px solid var(--cor-botao);
+  padding-bottom: 4px;
+}
+
+.labelpersonalizar {
+  font-weight: bold;
+  color: var(--texto-suave);
+}
+
+/* Botão Roxo */
+.btn-roxo {
+  background-color: var(--cor-botao);
+  border-color: var(--cor-botao);
+  color: var(--fundo-pagina);
+}
+
+.btn-roxo:hover {
+  background-color: var(--cor-hover);
+  border-color: var(--cor-hover);
+  color: var(--fundo-pagina);
+  transform: scale(1.01);
+}
+
+/* Rodapé */
+.rodape {
+  border-top: 4px solid var(--cor-link);
+  transition: 0.3s;
+}
+
+.rodape a {
+  color: var(--cor-link);
+  font-weight: 600;
+  text-decoration: underline;
+}
+
+.rodape a:hover {
+  color: var(--fundo-pagina);
+}
