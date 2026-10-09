@@ -33,6 +33,6 @@ Repositório dedicado ao desenvolvimento de um formulário de **Cadastro de Alun
 
 ## 🚀 Como Executar o Projeto
 
-1. **Clonar o repositório:**
-   ```bash
-   git clone [https://github.com/VitorAssalin/formulario_com_Js.git](https://github.com/VitorAssalin/formulario_com_Js.git)
+**Você pode visualizar e testar a aplicação em funcionamento através do link abaixo:
+
+[![Acessar Projeto](https://img.shields.io/badge/Acessar_Projeto-GitHub_Pages-2ea44f?style=for-the-badge&logo=github)](https://vitorassalin.github.io/formulario_com_Js/)
