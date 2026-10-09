@@ -8,7 +8,6 @@ formAluno.addEventListener('submit', function(event) {
     const ra = document.getElementById('ra').value.trim();
     const nome = document.getElementById('nome').value.trim();
     const senha = document.getElementById('senha').value.trim();
-    const email = document.getElementById('email').value.trim();
 
     // Regex que aceita apenas letras e espaços (incluindo acentos)
     const apenasLetras = /^[A-Za-zÀ-ÿ\s]+$/;
@@ -38,8 +37,6 @@ formAluno.addEventListener('submit', function(event) {
     } else if (!regexSenha.test(senha)) {
         mensagemAlerta.innerHTML = '<div class="alert alert-danger">A senha deve ter entre 8 e 20 caracteres, incluindo pelo menos uma letra maiúscula, um número e um caractere especial</div>';    
 
-    }else if(email === ""){
-        mensagemAlerta.innerHTML = '<div class="alert alert-danger">Preencha o email</div>';
     } else {
         mensagemAlerta.innerHTML = '<div class="alert alert-success">Formulário Enviado Com Sucesso</div>';
     }
